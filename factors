@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 from sys import argv
 import math
-"""Factorize as many numbers as possible into a product of 2 smaller nums"""
-
-
+"""Factorize as many numbers as possible into a product of two smaller numbers.
+"""
 def factory(num):
     """gets the factors of a number"""
     if num % 2 == 0:
